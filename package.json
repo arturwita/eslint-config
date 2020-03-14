@@ -1,0 +1,22 @@
+{
+  "name": "@squadcraft/eslint",
+  "version": "1.0.0",
+  "description": "eslint for squadcraft",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturwita/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "arturwita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arturwita/eslint-config/issues"
+  },
+  "homepage": "https://github.com/arturwita/eslint-config#readme"
+}
