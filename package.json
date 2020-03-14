@@ -1,5 +1,5 @@
 {
-  "name": "@squadcraft/eslint",
+  "name": "@squadcraft/eslint-config",
   "version": "1.0.0",
   "description": "eslint for squadcraft",
   "main": "lib/index.js",
