@@ -16,12 +16,8 @@
     "eslint-config-squadcraft",
     "squadcraft"
   ],
-  "author": "arturwita",
+  "author": "arturwita & Batuzz",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arturwita/eslint-config-squadcraft/issues"
-  },
-  "homepage": "https://github.com/arturwita/eslint-config-squadcraft#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
