@@ -1,6 +1,6 @@
 {
   "name": "@squadcraft/eslint-config-squadcraft",
-  "version": "1.0.0",
+  "version": "1.0.0-rc1",
   "description": "eslint for squadcraft",
   "main": "index.js",
   "scripts": {
