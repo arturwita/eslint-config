@@ -43,7 +43,7 @@ module.exports = {
     'max-classes-per-file': RULE_OFF,
     'no-restricted-syntax': RULE_OFF,
     'prefer-object-spread': RULE_ON,
-    'strict': ['error', 'global'],
+    'strict': [RULE_ON, 'global'],
     'node/exports-style': [RULE_ON,
       'module.exports'
     ],
