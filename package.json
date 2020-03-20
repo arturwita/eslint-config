@@ -1,22 +1,27 @@
 {
-  "name": "@squadcraft/eslint-config",
+  "name": "@squadcraft/eslint-config-squadcraft",
   "version": "1.0.0",
   "description": "eslint for squadcraft",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arturwita/eslint-config.git"
+    "url": "git+https://github.com/arturwita/eslint-config-squadcraft.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "eslint-config",
+    "eslint-config-squadcraft",
+    "squadcraft"
   ],
-  "author": "arturwita",
+  "author": "arturwita & Batuzz",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arturwita/eslint-config/issues"
-  },
-  "homepage": "https://github.com/arturwita/eslint-config#readme"
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0"
+  }
 }
