@@ -12,7 +12,8 @@ module.exports = {
     ecmaVersion: 2018
   },
   plugins: [
-    'node'
+    'node',
+    'jest'
   ],
   rules: {
     'no-await-in-loop': RULE_WARN_ONLY,
