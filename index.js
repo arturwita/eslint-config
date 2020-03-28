@@ -11,6 +11,9 @@ module.exports = {
     sourceType: 'script',
     ecmaVersion: 2018
   },
+  env: {
+    'jest/globals': true
+  },
   plugins: [
     'node',
     'jest'
