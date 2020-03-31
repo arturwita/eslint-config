@@ -11,8 +11,12 @@ module.exports = {
     sourceType: 'script',
     ecmaVersion: 2018
   },
+  env: {
+    'jest/globals': true
+  },
   plugins: [
-    'node'
+    'node',
+    'jest'
   ],
   rules: {
     'no-await-in-loop': RULE_WARN_ONLY,
