@@ -12,9 +12,11 @@ module.exports = {
     ecmaVersion: 2018
   },
   env: {
-    'jest/globals': true
+    'jest/globals': true,
+    mocha: true,
   },
   plugins: [
+    'chai-friendly',
     'node',
     'jest'
   ],
