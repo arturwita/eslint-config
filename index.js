@@ -56,7 +56,7 @@ module.exports = {
     'import/no-extraneous-dependencies': [RULE_ON,
       {
         devDependencies: [
-          'test/**',
+          '**/test/**',
           '**/*{test,spec}.js',
         ]
       }
