@@ -41,7 +41,7 @@ module.exports = {
     ],
     'indent': [
       RULE_ON,
-      4,
+      2,
       {
        'SwitchCase': RULE_WARN_ONLY
       }
